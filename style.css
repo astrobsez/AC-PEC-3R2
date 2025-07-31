@@ -1,0 +1,90 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #4a4a4a; /* Fondo plomo oscuro sólido */
+  margin: 0;
+  padding: 20px;
+  color: white; /* Texto blanco para contraste */
+}
+
+.container {
+  max-width: 500px;
+  margin: auto;
+  background: #333333; /* Fondo más oscuro dentro del contenedor */
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.7);
+}
+
+.logo {
+  display: block;
+  margin: 0 auto 20px auto;
+  max-width: 150px;
+  height: auto;
+}
+
+h1 {
+  text-align: center;
+  color: #ff0000; /* Rojo para títulos */
+  margin-bottom: 20px;
+}
+
+label {
+  display: block;
+  margin-top: 15px;
+  font-weight: bold;
+}
+
+input, button {
+  display: block;
+  width: 100%;
+  margin: 10px 0;
+  padding: 10px;
+  border-radius: 5px;
+  border: none;
+  font-size: 1em;
+}
+
+input {
+  background: #555555;
+  color: white;
+}
+
+button {
+  background-color: #ff0000; /* Rojo sólido */
+  color: white;
+  cursor: pointer;
+  font-weight: bold;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #b30000; /* Rojo oscuro al pasar el mouse */
+}
+
+.link {
+  display: block;
+  margin-top: 20px;
+  text-align: center;
+  color: #ff0000;
+  text-decoration: none;
+}
+
+.link:hover {
+  text-decoration: underline;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+  color: white;
+}
+
+table, th, td {
+  border: 1px solid #ff0000;
+}
+
+th, td {
+  padding: 10px;
+  text-align: center;
+}
