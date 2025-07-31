@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <title>Ingreso a Plataforma</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="container">
+    <h1>Ingreso a Plataforma</h1>
+
+    <label>N° Plataforma:</label>
+    <input type="text" id="plataforma" placeholder="Ej: 1, 2, 3..." />
+
+    <label>RUT (sin puntos ni guión):</label>
+    <input type="text" id="rut" placeholder="Ej: 123456789" />
+    
+    <button onclick="verificarIngreso()">Registrar ingreso</button>
+
+    <p id="resultado"></p>
+
+    <a href="historial.html" class="link">📄 Ver historial de ingresos</a>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
