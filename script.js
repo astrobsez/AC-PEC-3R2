@@ -1,5 +1,5 @@
 // Lista de RUTs autorizados
-const autorizados = ["123456789", "987654321", "112233445"];
+const autorizados = ["188917747", "171858097", "175654666", "213151606", "216922883", "267426139", "254590908", "21694657k", "207531413", "174471916"];
 
 function verificarIngreso() {
   const plataforma = document.getElementById("plataforma").value.trim();
